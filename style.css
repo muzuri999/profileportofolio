@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.top-container {
+    height: 100vh;
+    background-color: #6B240C;
+    color: #FAF6F0;
+    text-align: center;
+    position: relative;
+}
+
+.image-box {
+    position: absolute;
+    left: 50%;
+    top: 17.5%;
+    transform: translateX(-50%)
+}
+
+.profilepicture {
+    border-radius: 50%;
+    height: 300px;
+
+}
+
+.text-box {
+    text-transform: uppercase;
+    font-family: "Itim", cursive;
+    line-height: 2;
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translateX(-50%);
+}
+
+.main-text {
+    font-weight: 900;
+}
+
+.sub-text {
+    font-weight: 400;
+}
+
+
+.mid-container {
+    height: 100vh;
+}
